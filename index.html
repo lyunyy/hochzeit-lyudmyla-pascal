@@ -12,7 +12,7 @@
   <meta property="og:image" content="hero.webp">
   <title>Lyudmyla &amp; Pascal | Hochzeit am 20. August 2026</title>
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="styles.css?v=4">
+  <link rel="stylesheet" href="styles.css?v=5">
   <script>document.documentElement.classList.add('js');</script>
 </head>
 <body>
@@ -51,6 +51,23 @@
     </nav>
 
     <main>
+      <section class="video-section soft-section center">
+        <div class="section-inner reveal">
+          <p class="eyebrow" data-i18n="videoEyebrow">Der Antrag</p>
+          <h2 data-i18n="videoTitle">Und dann kam diese eine Frage …</h2>
+          <div class="video-wrap">
+            <video id="proposal-video" controls playsinline preload="metadata" poster="video-poster.webp">
+              <source src="antrag.mp4" type="video/mp4">
+              <span data-i18n="videoFallback">Dein Browser kann dieses Video leider nicht abspielen.</span>
+            </video>
+            <button class="video-play" id="video-play" type="button" aria-label="Antragvideo mit Ton abspielen" data-i18n-aria-label="playVideo">
+              <span aria-hidden="true">▶</span>
+            </button>
+          </div>
+          <p class="video-caption" data-i18n="videoCaption">Mit Ton ansehen · 58 Sekunden</p>
+        </div>
+      </section>
+
       <section class="intro" id="einladung">
         <div class="section-inner reveal">
           <p class="eyebrow" data-i18n="introEyebrow">Unsere Einladung an euch</p>
@@ -77,23 +94,6 @@
             <div class="count-box"><b id="seconds">00</b><small data-i18n="seconds">Sekunden</small></div>
           </div>
           <p id="countdown-caption" data-i18n="countdownCaption">bis wir uns um 10 Uhr das Ja-Wort geben.</p>
-        </div>
-      </section>
-
-      <section class="video-section soft-section center">
-        <div class="section-inner reveal">
-          <p class="eyebrow" data-i18n="videoEyebrow">Der Antrag</p>
-          <h2 data-i18n="videoTitle">Und dann kam diese eine Frage …</h2>
-          <div class="video-wrap">
-            <video id="proposal-video" controls playsinline preload="metadata" poster="video-poster.webp">
-              <source src="antrag.mp4" type="video/mp4">
-              <span data-i18n="videoFallback">Dein Browser kann dieses Video leider nicht abspielen.</span>
-            </video>
-            <button class="video-play" id="video-play" type="button" aria-label="Antragvideo mit Ton abspielen" data-i18n-aria-label="playVideo">
-              <span aria-hidden="true">▶</span>
-            </button>
-          </div>
-          <p class="video-caption" data-i18n="videoCaption">Mit Ton ansehen · 58 Sekunden</p>
         </div>
       </section>
 
@@ -273,6 +273,6 @@
     <p class="noscript">Für Countdown, Video und Sprachwahl muss JavaScript aktiviert sein.</p>
   </noscript>
 
-  <script src="script.js" defer></script>
+  <script src="script.js?v=2" defer></script>
 </body>
 </html>

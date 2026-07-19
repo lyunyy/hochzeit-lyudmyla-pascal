@@ -102,7 +102,7 @@ const translations = {
     navLocations: 'Адреси',
     navStay: 'Ночівля',
     dateLong: '20 серпня 2026',
-    heroTitle: 'Ми кажемо <em>«Так!»</em>',
+    heroTitle: 'Ми кажемо <em>Так!</em>',
     heroAlt: 'Людмила та Паскаль після освідчення',
     introEyebrow: 'Наше запрошення для вас',
     introTitle: 'Зі звичайного четверга почнеться <span>наш день.</span>',
