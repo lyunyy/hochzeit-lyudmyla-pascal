@@ -1,6 +1,6 @@
 @font-face {
   font-family: "Wedding Serif";
-  src: url("fonts/NimbusRoman-Regular.otf") format("opentype");
+  src: url("NimbusRoman-Regular.otf") format("opentype");
   font-style: normal;
   font-weight: 400;
   font-display: swap;
@@ -8,7 +8,7 @@
 
 @font-face {
   font-family: "Wedding Serif";
-  src: url("fonts/NimbusRoman-Italic.otf") format("opentype");
+  src: url("NimbusRoman-Italic.otf") format("opentype");
   font-style: italic;
   font-weight: 400;
   font-display: swap;
@@ -16,7 +16,7 @@
 
 @font-face {
   font-family: "Wedding Sans";
-  src: url("fonts/NimbusSans-Regular.otf") format("opentype");
+  src: url("NimbusSans-Regular.otf") format("opentype");
   font-style: normal;
   font-weight: 400;
   font-display: swap;
@@ -24,7 +24,7 @@
 
 @font-face {
   font-family: "Wedding Sans";
-  src: url("fonts/NimbusSans-Bold.otf") format("opentype");
+  src: url("NimbusSans-Bold.otf") format("opentype");
   font-style: normal;
   font-weight: 700;
   font-display: swap;
