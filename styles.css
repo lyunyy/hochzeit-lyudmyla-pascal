@@ -307,38 +307,23 @@ section {
 }
 
 .hero-names {
-  margin-bottom: 1.2rem;
-  color: #453638;
+  margin: 0 0 .65rem;
+  color: #fffaf6;
   font-family: "Wedding Serif", Georgia, serif;
-  font-size: clamp(1.5rem, 5vw, 2.1rem);
+  font-size: clamp(1.65rem, 5.5vw, 2.35rem);
   font-style: italic;
+  font-weight: 400;
+  letter-spacing: .01em;
+  line-height: 1;
+  text-shadow: 0 2px 16px rgba(30, 17, 20, .65);
+  text-transform: none;
 }
-
-.palette-mark {
-  display: flex;
-  width: max-content;
-  gap: 5px;
-  margin: 0 auto;
-}
-
-.palette-mark span {
-  display: block;
-  width: 19px;
-  height: 5px;
-  border-radius: 999px;
-}
-
-.palette-mark span:nth-child(1) { background: var(--terracotta); }
-.palette-mark span:nth-child(2) { background: var(--blush); }
-.palette-mark span:nth-child(3) { background: var(--rose); }
-.palette-mark span:nth-child(4) { background: var(--orange); }
-.palette-mark span:nth-child(5) { background: var(--magenta); }
 
 .hero-place {
   position: absolute;
   z-index: 3;
   right: 0;
-  bottom: 2.7rem;
+  bottom: 2rem;
   left: 0;
   margin: 0;
   color: #fff9f5;
@@ -349,12 +334,18 @@ section {
   text-transform: uppercase;
 }
 
+.hero-locations {
+  margin: 0;
+}
+
 .hero-scroll {
   display: block;
-  width: 1px;
-  height: 31px;
-  margin: 14px auto 0;
-  background: rgba(255, 249, 245, .8);
+  width: 10px;
+  height: 10px;
+  margin: 13px auto 0;
+  border-right: 1.5px solid rgba(255, 249, 245, .9);
+  border-bottom: 1.5px solid rgba(255, 249, 245, .9);
+  transform: rotate(45deg);
 }
 
 .quick-nav {
