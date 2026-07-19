@@ -315,7 +315,7 @@ section {
 
 html[lang="uk"] .hero h1 em {
   right: auto;
-  left: 50%;
+  left: 58%;
   transform: translateX(-50%);
 }
 
@@ -453,6 +453,10 @@ html[lang="uk"] .hero h1 em {
   font-family: "Wedding Serif", Georgia, serif;
   font-size: clamp(.9rem, 3vw, 1.05rem);
   font-style: italic;
+}
+
+.video-section .ring-card {
+  margin: clamp(3rem, 8vw, 5rem) auto 0;
 }
 
 .countdown {
