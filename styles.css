@@ -291,24 +291,26 @@ section {
 }
 
 .hero h1 {
-  display: flex;
-  align-items: baseline;
-  justify-content: center;
-  gap: .12em;
+  position: relative;
+  display: block;
   margin-bottom: .85rem;
   color: #3b2f30;
-  font-size: clamp(3.15rem, 13.5vw, 7rem);
+  font-size: clamp(3.6rem, 15vw, 7.5rem);
   line-height: .9;
   letter-spacing: -.065em;
   white-space: nowrap;
 }
 
 .hero h1 em {
-  display: inline;
+  position: absolute;
+  top: .72em;
+  right: .04em;
+  display: block;
   margin: 0;
   color: var(--magenta);
-  font-size: 1.05em;
+  font-size: 1.5em;
   font-weight: 400;
+  line-height: .8;
 }
 
 .hero-names {
